@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C49F00781D19E9AD00B14617 /* TipPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49F00781D19E9AD00B14617 /* TIP$.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIP$.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49F007B1D19E9AD00B14617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C49F007D1D19E9AD00B14617 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C49F00801D19E9AD00B14617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		C49F00791D19E9AD00B14617 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C49F00781D19E9AD00B14617 /* TipPro.app */,
+				C49F00781D19E9AD00B14617 /* TIP$.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C49F00771D19E9AD00B14617 /* TipPro */ = {
+		C49F00771D19E9AD00B14617 /* TIP$ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C49F008A1D19E9AD00B14617 /* Build configuration list for PBXNativeTarget "TipPro" */;
+			buildConfigurationList = C49F008A1D19E9AD00B14617 /* Build configuration list for PBXNativeTarget "TIP$" */;
 			buildPhases = (
 				C49F00741D19E9AD00B14617 /* Sources */,
 				C49F00751D19E9AD00B14617 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = TipPro;
+			name = TIP$;
 			productName = TipPro;
-			productReference = C49F00781D19E9AD00B14617 /* TipPro.app */;
+			productReference = C49F00781D19E9AD00B14617 /* TIP$.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,10 +96,11 @@
 				TargetAttributes = {
 					C49F00771D19E9AD00B14617 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6T2RRMSN73;
 					};
 				};
 			};
-			buildConfigurationList = C49F00731D19E9AD00B14617 /* Build configuration list for PBXProject "TipPro" */;
+			buildConfigurationList = C49F00731D19E9AD00B14617 /* Build configuration list for PBXProject "TIP$" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C49F00771D19E9AD00B14617 /* TipPro */,
+				C49F00771D19E9AD00B14617 /* TIP$ */,
 			);
 		};
 /* End PBXProject section */
@@ -249,10 +250,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TipPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swayambarik.TipPro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TIP$;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,17 +264,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TipPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swayambarik.TipPro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TIP$;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C49F00731D19E9AD00B14617 /* Build configuration list for PBXProject "TipPro" */ = {
+		C49F00731D19E9AD00B14617 /* Build configuration list for PBXProject "TIP$" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C49F00881D19E9AD00B14617 /* Debug */,
@@ -279,13 +286,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C49F008A1D19E9AD00B14617 /* Build configuration list for PBXNativeTarget "TipPro" */ = {
+		C49F008A1D19E9AD00B14617 /* Build configuration list for PBXNativeTarget "TIP$" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C49F008B1D19E9AD00B14617 /* Debug */,
 				C49F008C1D19E9AD00B14617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
